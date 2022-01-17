@@ -25,7 +25,7 @@
 					status = "okay";
 
 					display0: display0 {
-						bits-per-pixel = <16>;
+						bits-per-pixel = <32>;
 						bus-width = <24>;
 						
 						display-timings {
@@ -33,15 +33,15 @@
 
 						timing1: timing1 {
 								mode_name = "TFT50AB";
-								clock-frequency = <27000000>;
+								clock-frequency = <33000000>;
 								hactive = <800>;
 								vactive = <480>;
-								hfront-porch = <22>;
-								hback-porch = <46>;
-								hsync-len = <1>;
-								vback-porch = <23>;
-								vfront-porch = <22>;
-								vsync-len = <1>;
+								hfront-porch = <40>;
+								hback-porch = <40>;
+								hsync-len = <48>;
+								vback-porch = <29>;
+								vfront-porch = <13>;
+								vsync-len = <3>;
 					
 								hsync-active = <0>;
 								vsync-active = <0>;
